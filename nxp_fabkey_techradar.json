@@ -1,38 +1,10 @@
 [
     {
-        "name": "C#",
+        "name": ".Net (C#)",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "Used as main language in all parts of the fabkey server."
-    },
-    {
-        "name": "Go",
-        "ring": "adopt",
-        "quadrant": "languages & frameworks",
-        "isNew": "FALSE",
-        "description": "Mainly used for CI/CD pipeline scripts."
-    },
-    {
-        "name": "Dapper",
-        "ring": "adopt",
-        "quadrant": "languages & frameworks",
-        "isNew": "FALSE",
-        "description": "Used for DB access from C#."
-    },
-    {
-        "name": "Nats",
-        "ring": "adopt",
-        "quadrant": "languages & frameworks",
-        "isNew": "FALSE",
-        "description": "Used for communication between services. Successor messaging system of RabbitMQ in the fabkey environment."
-    },
-    {
-        "name": "RabbitMQ",
-        "ring": "adopt",
-        "quadrant": "languages & frameworks",
-        "isNew": "FALSE",
-        "description": "Used for legacy communication between services."
     },
     {
         "name": "NUnit",
@@ -42,11 +14,39 @@
         "description": "Used for unit testing C# applications."
     },
     {
+        "name": "Nats",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for communication between services. Successor messaging system of RabbitMQ in the fabkey environment."
+    },
+    {
         "name": "Moq",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "Used for mocking in C# unit tests."
+    },
+    {
+        "name": "Dapper",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for DB access from C#."
+    },
+    {
+        "name": "Go",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Mainly used for CI/CD pipeline scripts."
+    },
+    {
+        "name": "RabbitMQ",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for legacy communication between services."
     },
     {
         "name": "Polly",
