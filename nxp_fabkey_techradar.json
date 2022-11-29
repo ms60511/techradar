@@ -4,83 +4,90 @@
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "We continue to see teams run into trouble using JSF ..."
+        "description": "Used as main language in all parts of the fabkey server."
     },
     {
         "name": "Go",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "We continue to see teams run into trouble using JSF ..."
+        "description": "Mainly used for CI/CD pipelines."
+    },
+    {
+        "name": "Dapper",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for DB access from C#."
     },
     {
         "name": "Nats",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "We continue to see teams run into trouble using JSF ..."
+        "description": "Used for communication between services. Successor messaging of RabbitMQ in the fabkey environment."
     },
     {
         "name": "RabbitMQ",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "We continue to see teams run into trouble using JSF ..."
+        "description": "Used for legacy communication between services."
     },
     {
         "name": "SQL Server",
         "ring": "adopt",
         "quadrant": "datastore",
         "isNew": "TRUE",
-        "description": "Although the idea of dependency management ..."
+        "description": "Main non volatile data store for all services."
     },
     {
         "name": "Docker",
         "ring": "adopt",
         "quadrant": "infrastructure",
         "isNew": "FALSE",
-        "description": "Many projects have external code dependencies ..."
+        "description": "Used for containerization of all services."
     },
     {
         "name": "Kubernetes",
         "ring": "adopt",
         "quadrant": "infrastructure",
         "isNew": "FALSE",
-        "description": "Many projects have external code dependencies ..."
-    },
-    {
-        "name": "Scrum",
-        "ring": "adopt",
-        "quadrant": "techniques",
-        "isNew": "FALSE",
-        "description": "Many projects have external code dependencies ..."
-    },
-    {
-        "name": "Flight Levels",
-        "ring": "adopt",
-        "quadrant": "techniques",
-        "isNew": "TRUE",
-        "description": "Many projects have external code dependencies ..."
+        "description": "Used for orchestration of containerized services."
     },
     {
         "name": "Rancher",
         "ring": "trail",
         "quadrant": "infrastructure",
         "isNew": "FALSE",
-        "description": "Many projects have external code dependencies ..."
+        "description": "Used in development environment for management of Kubernetes clusters."
+    },
+    {
+        "name": "CI/CD",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "Technique for automated creation of artifacts and deployment of services."
+    },
+    {
+        "name": "Data sync via stored procedures",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "Technique mainly used to synchronize data from frontend to backend and vice versa."
     },
     {
         "name": "OpenShift",
         "ring": "assess",
         "quadrant": "infrastructure",
         "isNew": "TRUE",
-        "description": "Many projects have external code dependencies ..."
+        "description": "Future management platform of Kubernetes clusters for production environment ."
     },
     {
         "name": "Hazelcast",
         "ring": "hold",
         "quadrant": "datastore",
         "isNew": "TRUE",
-        "description": "Although the idea of dependency management ..."
+        "description": "Option for future data store for usecas of fabkey server per batch."
     }
 ]
