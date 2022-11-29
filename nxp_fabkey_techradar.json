@@ -133,6 +133,13 @@
         "description": "Technique for automated creation of artifacts and deployment of services."
     },
     {
+        "name": "GitLab",
+        "ring": "trail",
+        "quadrant": "infrastructure",
+        "isNew": "TRUE",
+        "description": "Used for source code management and CI/CD pipeline in development environment."
+    },
+    {
         "name": "Data sync via stored procedures",
         "ring": "adopt",
         "quadrant": "techniques",
@@ -140,17 +147,17 @@
         "description": "Technique mainly used to synchronize data from frontend to backend and vice versa."
     },
     {
+        "name": "Hazelcast",
+        "ring": "assess",
+        "quadrant": "datastore",
+        "isNew": "TRUE",
+        "description": "Data store option for the future usecase of fabkey server per batch."
+    },
+    {
         "name": "OpenShift",
         "ring": "hold",
         "quadrant": "infrastructure",
         "isNew": "TRUE",
-        "description": "Future management platform of Kubernetes clusters for production environment ."
-    },
-    {
-        "name": "Hazelcast",
-        "ring": "hold",
-        "quadrant": "datastore",
-        "isNew": "TRUE",
-        "description": "Data store option for the future usecase of fabkey server per batch."
+        "description": "Future management platform of Kubernetes clusters for production environment."
     }
 ]
