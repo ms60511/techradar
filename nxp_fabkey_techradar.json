@@ -25,7 +25,7 @@
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "Used for communication between services. Successor messaging of RabbitMQ in the fabkey environment."
+        "description": "Used for communication between services. Successor messaging system of RabbitMQ in the fabkey environment."
     },
     {
         "name": "RabbitMQ",
@@ -71,7 +71,7 @@
     },
     {
         "name": "Data sync via stored procedures",
-        "ring": "assess",
+        "ring": "adopt",
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "Technique mainly used to synchronize data from frontend to backend and vice versa."
@@ -88,6 +88,6 @@
         "ring": "hold",
         "quadrant": "datastore",
         "isNew": "TRUE",
-        "description": "Option for future data store for usecas of fabkey server per batch."
+        "description": "Data store option for the usecase of fabkey server per batch."
     }
 ]
