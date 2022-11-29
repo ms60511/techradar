@@ -1,0 +1,1 @@
+# Go to https://radar.thoughtworks.com/ and past the raw url of the json file into the input field.
