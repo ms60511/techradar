@@ -151,6 +151,6 @@
         "ring": "hold",
         "quadrant": "datastore",
         "isNew": "TRUE",
-        "description": "Data store option for the usecase of fabkey server per batch."
+        "description": "Data store option for the future usecase of fabkey server per batch."
     }
 ]
