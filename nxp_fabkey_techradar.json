@@ -56,6 +56,13 @@
         "description": "Used for orchestration of containerized services."
     },
     {
+        "name": "ArgoCD",
+        "ring": "assess",
+        "quadrant": "infrastructure",
+        "isNew": "FALSE",
+        "description": "Used for deployment of containerized services into Kubernetes clusters."
+    },
+    {
         "name": "Rancher",
         "ring": "trail",
         "quadrant": "infrastructure",
@@ -63,8 +70,15 @@
         "description": "Used in development environment for management of Kubernetes clusters."
     },
     {
+        "name": "Argo Workflows",
+        "ring": "trail",
+        "quadrant": "infrastructure",
+        "isNew": "FALSE",
+        "description": "Container workflow engine used to trigger and orchestrate parallel jobs in the Kubernetes clusters."
+    },
+    {
         "name": "CI/CD",
-        "ring": "assess",
+        "ring": "trail",
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "Technique for automated creation of artifacts and deployment of services."
@@ -78,7 +92,7 @@
     },
     {
         "name": "OpenShift",
-        "ring": "assess",
+        "ring": "hold",
         "quadrant": "infrastructure",
         "isNew": "TRUE",
         "description": "Future management platform of Kubernetes clusters for production environment ."
