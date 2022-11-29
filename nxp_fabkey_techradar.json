@@ -88,7 +88,7 @@
         "ring": "adopt",
         "quadrant": "datastore",
         "isNew": "TRUE",
-        "description": "Main non volatile data store for all services."
+        "description": "Main non volatile data store used in backend (KeyServer-DB, ArchiveServer-DB and PoolServer/RTS-Buffer-DB), and all frontend sites (FabServer-DB)"
     },
     {
         "name": "Docker",
