@@ -35,6 +35,55 @@
         "description": "Used for legacy communication between services."
     },
     {
+        "name": "NUnit",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for unit testing C# applications."
+    },
+    {
+        "name": "Moq",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for mocking in C# unit tests."
+    },
+    {
+        "name": "Polly",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for resilience and transient-fault handling in C# applications."
+    },
+    {
+        "name": "Newtonsoft Json",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for JSON serialization and deserialization in C# applications."
+    },
+    {
+        "name": "Autofac",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for dependency injection in C# applications."
+    },
+    {
+        "name": "Serilog",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for logging in C# applications."
+    },
+    {
+        "name": "Spring Framework",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Used for legacy way of dependency injection in C# applications."
+    },
+    {
         "name": "SQL Server",
         "ring": "adopt",
         "quadrant": "datastore",
@@ -56,18 +105,18 @@
         "description": "Used for orchestration of containerized services."
     },
     {
-        "name": "ArgoCD",
-        "ring": "assess",
-        "quadrant": "infrastructure",
-        "isNew": "FALSE",
-        "description": "Used for deployment of containerized services into Kubernetes clusters."
-    },
-    {
         "name": "Rancher",
         "ring": "trail",
         "quadrant": "infrastructure",
         "isNew": "FALSE",
         "description": "Used in development environment for management of Kubernetes clusters."
+    },
+    {
+        "name": "ArgoCD",
+        "ring": "trail",
+        "quadrant": "infrastructure",
+        "isNew": "FALSE",
+        "description": "Used for deployment of containerized services into Kubernetes clusters."
     },
     {
         "name": "Argo Workflows",
